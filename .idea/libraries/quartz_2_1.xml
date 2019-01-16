@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="quartz-2.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-backward-compat/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-backward-compat/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-commonj/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-integration-tests/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-integration-tests/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-jboss/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-oracle/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-stubs/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz-weblogic/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7/quartz/src/test/java" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../java lib's/quartz-2.1.7" recursive="false" />
+  </library>
+</component>
