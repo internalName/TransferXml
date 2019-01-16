@@ -23,7 +23,7 @@ public abstract class AbstractListener implements EventListener {
     private void checkFolders(Path folder) {
         File file = new File(String.valueOf(folder));
 
-        if (!file.isDirectory()) {
+
             if (!file.exists()) {
                 try {
 
@@ -35,7 +35,7 @@ public abstract class AbstractListener implements EventListener {
                 }
             }
         }
-    }
+
 
     public abstract void update(Path folder) throws Exception;
 }

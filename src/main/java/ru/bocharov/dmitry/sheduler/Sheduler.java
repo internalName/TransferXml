@@ -15,7 +15,7 @@ public class Sheduler {
 
             Trigger trigger = TriggerBuilder.newTrigger().
                     withSchedule(SimpleScheduleBuilder.simpleSchedule().
-                            withIntervalInSeconds(3).repeatForever()).build();
+                            withIntervalInSeconds(3).withRepeatCount(10)).build();
 
             SchedulerFactory schFactory = new StdSchedulerFactory();
             Scheduler scheduler = schFactory.getScheduler();
