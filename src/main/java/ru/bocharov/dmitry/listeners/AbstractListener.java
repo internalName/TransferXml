@@ -23,14 +23,16 @@ public abstract class AbstractListener implements EventListener {
     private void checkFolders(Path folder) {
         File file = new File(String.valueOf(folder));
 
-        if (!file.exists()) {
-            try {
+        if (!file.isDirectory()) {
+            if (!file.exists()) {
+                try {
 
-                Files.createDirectory(folder);
-                logger.info("Create folder " + new Date());
-            } catch (Exception e) {
-                logger.error(e.getMessage());
+                    Files.createDirectory(folder);
+                    logger.info("Create folder " + new Date());
+                } catch (Exception e) {
+                    logger.error(e.getMessage());
 
+                }
             }
         }
     }

@@ -29,6 +29,13 @@ public class CarrierListener extends AbstractListener {
         try {
             DirectoryStream<Path> dirstr = Files.newDirectoryStream(Paths.get(String.valueOf(folder)));
 
+            if (file.isDirectory()) {
+                for (File myFile : file.listFiles()) {
+                    if (myFile.isFile()) {
+                        System.out.println(myFile);
+                    }
+                }
+            }
 
             for (Path entry : dirstr
             ) {
