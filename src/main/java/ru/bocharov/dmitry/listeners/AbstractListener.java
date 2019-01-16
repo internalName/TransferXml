@@ -11,7 +11,7 @@ import java.util.Date;
 import org.apache.log4j.Logger;
 
 public abstract class AbstractListener implements EventListener {
-    final static Logger logger = Logger.getLogger(AbstractListener.class);
+     final static Logger logger = Logger.getLogger(AbstractListener.class);
 
     String folderOut = Paths.get("").toAbsolutePath().toString() + "\\out";
 

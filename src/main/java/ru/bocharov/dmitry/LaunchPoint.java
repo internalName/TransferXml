@@ -1,5 +1,6 @@
 package ru.bocharov.dmitry;
 
+
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
@@ -16,7 +17,9 @@ public class LaunchPoint implements Job {
 
         manageFolder=new ManageFolder();
         AbstractListener listener=new CarrierListener(manageFolder);
+
         Sheduler sheduler=new Sheduler();
+
     }
 
 
